@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@layer {
+  body {
+    font-family: 'Ovo', sans-serif;
+    height: 2000px;
+    scroll-behavior: smooth;
+    /* background-color: var(--color-1); */
+  }
+}
+
+@theme {
+  --color-1: #c0c0c0;
+  --color-2: #808080;
+  --color-3: #404040;
+  --breakpoint-xs: 320px;
+  --shadow-custom: 0px -2px 25px 0px rgba(0, 0, 0, 0.1);
+}
